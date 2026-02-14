@@ -1,1 +1,56 @@
-/* место для вашего кода */
+.main-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.header {
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 31px;
+    font-size: 18px;
+    list-style: circle;
+}
+
+.logo {
+    height: 105px;
+    width: 148px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-self: end;
+    max-width: 240px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.35;
+}
+
+.cover {
+    height: 757px;
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+}
+
+.lots {
+
+}
+
+.about {
+
+}
+
+.footer {
+
+}
