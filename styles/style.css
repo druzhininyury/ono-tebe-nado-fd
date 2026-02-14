@@ -13,11 +13,17 @@
     padding-right: 50px;
 }
 
-.header-menu {
+.header__menu {
     display: flex;
     gap: 31px;
     font-size: 18px;
     list-style: circle;
+}
+
+.inactive-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
 }
 
 .logo {
@@ -29,12 +35,15 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-self: end;
-    max-width: 240px;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.35;
+}
+
+.header__address {
+    justify-self: end;
+    max-width: 240px;
 }
 
 .cover {
@@ -257,6 +266,7 @@
 
 .footer__address {
     justify-self: start;
+    max-width: 261px;
 }
 
 .footer__menu {
