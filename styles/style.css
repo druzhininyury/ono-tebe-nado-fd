@@ -38,9 +38,86 @@
 }
 
 .cover {
-    height: 757px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 757px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
+    z-index: 0;
+}
+
+.cover-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    color: white;
+    /*text-align: center;*/
+    text-transform: uppercase;
+    padding-top: 59px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cover-header span {
+    display: block;
+}
+
+.cover-header-left {
+    align-self: start;
+}
+
+.cover-header-center {
+    align-self: center;
+}
+
+.cover-header-right {
+    align-self: end;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: white;
+    word-spacing: 0.9em;
+    text-transform: uppercase;
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+    padding: 12px 32px 11px 31px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    text-transform: inherit;
+    background: none;
+    border: white solid 1px;
 }
 
 .lots {
