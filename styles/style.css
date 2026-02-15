@@ -178,14 +178,6 @@
     justify-content: space-between;
 }
 
-.card-link {
-
-}
-
-.card {
-
-}
-
 .card_type_film {
     background-size: cover;
     background-position: center;
@@ -245,10 +237,6 @@
     padding-top: 35px;
 }
 
-.about__column {
-
-}
-
 .about__logo {
     width: 240px;
     height: 240px;
@@ -291,10 +279,6 @@
     max-width: 261px;
 }
 
-.footer__menu {
-
-}
-
 .footer__menu-list {
     list-style-type: none;
     line-height: 1.05;
@@ -320,14 +304,6 @@
     justify-content: end;
     list-style-type: none;
     column-gap: 48px;
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {
