@@ -65,6 +65,8 @@
 }
 
 .cover__header {
+    position: relative;
+    z-index: 2;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -101,6 +103,7 @@
 
 .overlay {
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     background-color: black;
@@ -110,6 +113,8 @@
 }
 
 .cover__description {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,8 +128,8 @@
     text-transform: uppercase;
 }
 
-.cover__description-text {
-
+.cover__description-denser {
+    word-spacing: 0.8em;
 }
 
 .bet-button {
