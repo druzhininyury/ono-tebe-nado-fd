@@ -19,6 +19,10 @@
     list-style: none;
 }
 
+.active-link {
+    text-decoration: none;
+}
+
 .header__menu-delimiter::before {
     content: "\25CB";
     font-size: 14px;

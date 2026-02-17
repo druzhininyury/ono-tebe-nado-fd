@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="main-text">
-    <header class="header">
+    <header id="main" class="header">
       <nav>
         <ul class="header__menu">
-          <li>главная</li>
+          <li><a href="#0" class="active-link">главная</a></li>
           <li class="header__menu-delimiter"></li>
-          <li class="inactive-link">посмотреть лоты</li>
+          <li class="inactive-link"><a href="#lots">посмотреть лоты</a></li>
           <li class="header__menu-delimiter"></li>
-          <li class="inactive-link">об аукционе</li>
+          <li class="inactive-link"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a href="#0">
-        <img src="images/logo-black.svg" alt="website logo" class="logo" />
+        <img src="images/logo-black.svg" alt="логотип сайт" class="logo" />
       </a>
       <address class="address header__address">
         <a href="tel:+99995555555" class="inactive-link">+9 999 555 5555</a>
@@ -43,7 +43,7 @@
             <button class="bet-button">Сделать ставку</button>
           </div>
       </section>
-      <section class="lots">
+      <section id="lots" class="lots">
         <h2 class="lots__heading section__title">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item card_type_film">
@@ -64,10 +64,10 @@
         </ul>
         <a class="lots__look-more-link inactive-link">посмотреть больше</a>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img src="images/logo-white.svg" alt="logo-black" class="about__logo_image"/>
+            <img src="images/logo-white.svg" alt="логотип сайта" class="about__logo_image"/>
           </div>
         </div>
         <div class="about__info">
@@ -88,16 +88,16 @@
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item"><a class="footer__menu-link footer_menu-link_active">главная</a></li>
-          <li class="footer__menu-list-item"><a class="footer__menu-link">посмотреть лоты</a></li>
-          <li class="footer__menu-list-item"><a class="footer__menu-link">об аукционе</a></li>
+          <li class="footer__menu-list-item"><a href="#main" class="footer__menu-link">главная</a></li>
+          <li class="footer__menu-list-item"><a href="#lots" class="footer__menu-link">посмотреть лоты</a></li>
+          <li class="footer__menu-list-item"><a href="#0" class="footer__menu-link active-link">об аукционе</a></li>
         </ul>
       </nav>
       <div>
         <ul class="footer__social-list">
-          <li class="footer__social-list-item"><a><img src="images/yt.svg" alt="youtube icon" class="footer__social-icon"/></a></li>
-          <li class="footer__social-list-item"><a><img src="images/vk.svg" alt="vk icon" class="footer__social-icon"/></a></li>
-          <li class="footer__social-list-item"><a><img src="images/pinterest.svg" alt="pinterest icon" class="footer__social-icon"/></a></li>
+          <li class="footer__social-list-item"><a><img src="images/yt.svg" alt="ютуб" class="footer__social-icon"/></a></li>
+          <li class="footer__social-list-item"><a><img src="images/vk.svg" alt="в контакте" class="footer__social-icon"/></a></li>
+          <li class="footer__social-list-item"><a><img src="images/pinterest.svg" alt="пинтерест" class="footer__social-icon"/></a></li>
         </ul>
       </div>
     </footer>
