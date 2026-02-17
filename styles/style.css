@@ -281,6 +281,11 @@
     max-width: 261px;
 }
 
+.footer__address-link {
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+}
+
 .footer__menu-list {
     list-style-type: none;
     line-height: 1.05;
