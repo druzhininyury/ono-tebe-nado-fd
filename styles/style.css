@@ -90,10 +90,6 @@
     padding-right: 50px;
 }
 
-.cover__header span {
-    display: block;
-}
-
 .cover__header-left {
     align-self: start;
 }
