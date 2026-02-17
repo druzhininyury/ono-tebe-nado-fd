@@ -4,7 +4,6 @@
 }
 
 .header {
-    /*height: 289px;*/
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -42,7 +41,7 @@
 .logo {
     height: 107px;
     width: 135px;
-    margin-top: 92px;
+    margin-top: 91px;
     margin-bottom: 82px;
 }
 
@@ -62,7 +61,7 @@
 }
 
 .cover {
-    margin-top: 7px;
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -279,7 +278,7 @@
     max-width: 261px;
 }
 
-.footer__address-link {
+.address-link {
     text-decoration-skip-ink: none;
     text-underline-offset: 4px;
 }
