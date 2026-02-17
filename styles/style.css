@@ -98,14 +98,16 @@
     align-self: start;
 }
 
+.cover__header-no-right-gap {
+    margin-right: -0.3em;
+}
+
 .cover__header-center {
     align-self: center;
-    margin-right: -0.3em;
 }
 
 .cover__header-right {
     align-self: end;
-    margin-right: -0.3em;
 }
 
 .overlay {
@@ -182,21 +184,20 @@
     justify-content: space-between;
 }
 
-.card_type_film {
+.card_type {
     background-size: cover;
     background-position: center;
+}
+
+.card_type_film {
     background-image: url('../images/card-lot-01.jpg');
 }
 
 .card_type_book {
-    background-size: cover;
-    background-position: center;
     background-image: url('../images/card-lot-02.jpg');
 }
 
 .card_type_picture {
-    background-size: cover;
-    background-position: center;
     background-image: url('../images/card-lot-03.jpg');
 }
 
@@ -270,6 +271,7 @@
 
 .footer {
     margin-top: 180px;
+    margin-bottom: 82px;
     padding-left: 50px;
     padding-right: 50px;
     display: grid;
