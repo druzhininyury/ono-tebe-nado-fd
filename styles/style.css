@@ -19,19 +19,24 @@
     list-style: none;
 }
 
-.active-link {
+.header__menu-item {
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+}
+
+.header__menu-item::before {
+    content: "\25CB";
+    margin-right: 13px;
+    font-size: 14px;
     text-decoration: none;
 }
 
-.header__menu-delimiter::before {
-    content: "\25CB";
-    font-size: 14px;
+.header__menu__item-no-marker::before {
+    content: none;
 }
 
-.inactive-link {
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 4px;
+.address__link-active {
+    text-decoration: none;
 }
 
 .logo {
@@ -283,17 +288,10 @@
 
 .footer__menu-list-item {
     text-align: center;
-}
-
-.footer__menu-link {
     font-size: 18px;
-    text-decoration: underline;
     text-decoration-skip-ink: none;
     text-underline-offset: 4px;
-}
-
-.footer_menu-link_active {
-    text-decoration: none;
+    line-height: 1.2;
 }
 
 .footer__social-list {
