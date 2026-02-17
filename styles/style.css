@@ -4,7 +4,7 @@
 }
 
 .header {
-    height: 289px;
+    /*height: 289px;*/
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -42,8 +42,8 @@
 .logo {
     height: 107px;
     width: 135px;
-    position: relative;
-    top: 2px;
+    margin-top: 92px;
+    margin-bottom: 82px;
 }
 
 .address {
@@ -62,7 +62,7 @@
 }
 
 .cover {
-    margin-top: 4px;
+    margin-top: 7px;
     display: flex;
     flex-direction: column;
     position: relative;
