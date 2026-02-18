@@ -169,6 +169,10 @@
     list-style-type: none;
 }
 
+.lots__card-list-item-link {
+    text-decoration: none;
+}
+
 .lots__card-list-item {
     position: relative;
     z-index: 0;
