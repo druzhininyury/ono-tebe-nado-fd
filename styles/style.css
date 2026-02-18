@@ -13,7 +13,7 @@
 
 .header__menu {
     display: flex;
-    gap: 13px;
+    gap: 12px;
     font-size: 18px;
     list-style: none;
 }
